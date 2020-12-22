@@ -1,0 +1,174 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background: url("https://wallpaperaccess.com/full/253332.jpg") repeat fixed 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:rgb(0,0,0,0.80);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.titlehead {
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  border-color: rgb(255, 255, 255);
+  border-style: ridge;
+  border-radius: 70px;
+  border-width: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(255, 255, 255, 0.50);
+}
+
+li {
+  display: inline;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.active {
+  background-color: red;
+}
+
+.section1 {
+  background-color: rgb(206,145,126,0.80);
+  padding: 30px 30px 30px 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-color: rgb(255, 255, 255);
+  border-style: ridge;
+  border-radius: 50px;
+  border-width: 10px;
+}
+
+.section2 {
+  background-color: rgb(252,243,207,0.80);
+  padding: 30px 30px 30px 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-color: rgb(255, 255, 255);
+  border-style: ridge;
+  border-radius: 50px;
+  border-width: 10px;
+}
+
+.section3 {
+  background-color: rgb(163,111,80,0.80);
+  padding: 80px 80px 80px 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.members {
+  background-color: rgb(252,243,207,0.80);
+  border-color:gold;
+  border-radius: 30px;
+  border-style: groove;
+  padding: 30px 30px 30px 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.boxed{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-color:	rgb(220,20,60, 0.80);
+  border-style:ridge;
+  border-radius: 60px;
+  border-width: 8px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tabledata{
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-width: 5px;
+  border-color: aliceblue;
+  border-radius: 10px;
+}
+
+.tabledata2{
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  border-width: 1px;
+  border-color: whitesmoke;
+  border-radius: 3px;
+}
+
+th, td {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.centered {
+  float: center;
+  text-align: center;
+  align-content: center;
+}
